@@ -1,6 +1,6 @@
-#! /usr/bin/env python
+D#! /usr/bin/env python
 import datetime
-
+ 
 from flask import Flask, request, send_from_directory
 
 app = Flask(__name__, static_url_path='')
@@ -10,7 +10,7 @@ def hello_world():
     return """
     <h1>Hello World</h1>
 
-    <p>From Colby at %(now)s.</p>
+    <p>From coduong at %(now)s.</p>
 
     <p>Deployed on Openshift at <a href="%(url)s">%(url)s</a>.</p>
     
